@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Startup Name Generator',
       theme: ThemeData(
-        brightness: Brightness.dark,
         primaryColor: Colors.deepOrange,
+        brightness: Brightness.dark,
       ),
       home: RandomWords(),
     );
